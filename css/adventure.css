@@ -5,22 +5,30 @@
 body{
   background-color: grey;
   padding: 1em 2em;
+  text-align: center;
+  font-family: 'Righteous', cursive;
 }
 #game-container{
   margin: 4em 10em;
-  padding: 23em 5em;
+  padding: 4em 5em;
   background-color: white;
 }
-h1{
-  position: absolute;
-  left: 200px;
-  margin-left:590px;
-}
 #game-buttons{
-  position: absolute;
-  left: 600 px;
-  right: 	auto;
-
+  padding: 10px 5px;
+  margin: 0 auto;
+}
+#title{
+font-weight: 400;
+font-size: 3rem;
+}
+#description{
+  font-size: 1.3rem;
+}
+#image{
+  padding: 1rem 0;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
 }
 #button1,#button2,#button3{
   background-color: black;
