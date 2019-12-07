@@ -4,13 +4,15 @@
 }
 body{
   background-color: grey;
-  padding: 1em 2em;
+  padding: 2em 6em;
   text-align: center;
   font-family: 'Righteous', cursive;
 }
 #game-container{
-  margin: 4em 10em;
-  padding: 4em 5em;
+  margin: auto auto;
+  max-height: 80%;
+  max-width: 80%;
+  padding: 2em 6em;
   background-color: white;
 }
 #game-buttons{
@@ -28,7 +30,7 @@ font-size: 3rem;
   padding: 1rem 0;
   display: block;
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 #button1,#button2,#button3{
   background-color: black;
