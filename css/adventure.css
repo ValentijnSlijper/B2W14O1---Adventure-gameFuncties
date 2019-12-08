@@ -8,6 +8,9 @@ body{
   text-align: center;
   font-family: 'Righteous', cursive;
 }
+audio{
+  margin: 1rem;
+}
 #game-container{
   margin: auto auto;
   max-height: 80%;
@@ -30,7 +33,7 @@ font-size: 3rem;
   padding: 1rem 0;
   display: block;
   width: 60%;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 #button1,#button2,#button3{
   background-color: black;
